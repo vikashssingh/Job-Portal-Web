@@ -1,0 +1,111 @@
+/*over all register content*/
+
+.Register_overall_container{
+    display: grid;
+    place-items: center;
+    height: 100vh;  
+}
+
+/*Register container css*/
+
+.Re-container{
+    width: 300px;
+    background-color: #ffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    color: #0081ff;
+    border: 5px solid #036ed8;
+}
+.Re-content{
+    border-radius: 2px;
+    background-color: #ffff;
+    min-height: 50px;
+    width: 100%;
+    color: black;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    border: 1px solid #036ed8;
+    margin: 5px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.Re-content:hover{
+    background-color: #036ed8;   
+    color: #ffff;
+}
+
+/*container gird*/
+.Re-content-gird{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/*container position*/
+.R-loginContainer{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}  
+
+/*content inside container*/
+.R-content{
+    display: grid;
+    place-items: center;
+    width: 350px;
+    background-color: #F5FFFA;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    font-weight: 600;
+    color: #0081ff;
+    border: 5px solid #036ed8;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+}
+
+
+
+.R-input:hover{
+    border: 1px solid rgb(77, 10, 231);
+    box-shadow: 0 0 10px #1171d8;
+}
+
+.R-login-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5em;
+}
+
+/* css for buttons*/
+.R-buttons{
+    padding: 0.5em 2em 0.5em 2em;
+    margin: 0.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    color: #ffff;
+    background-color: rgba(49, 49, 235, 0.774);
+    border-radius: 5px;
+    border: none;
+}
+
+.R-buttons:hover{
+    background-color: rgba(20, 20, 143, 0.774);
+    cursor: pointer; 
+    box-shadow: 0 0 10px rgba(20, 20, 143, 0.774);
+}
+
+@media screen and (max-device-width:990px) { 
+    .R-content{
+        width: 300px;
+        background-color: #f5fffa;
+        padding: 1em;
+        border-radius: 0.5em;
+        font-weight: 600;
+        color: #0081ff;
+        border: 5px solid #036ed8;
+        font-family: "Outfit", sans-serif;
+    }  
+}

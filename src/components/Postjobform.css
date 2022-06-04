@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.Post_overall_container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+
+
+.P-content {
+  width: 90vw;
+  background-color: #f5fffa;
+  padding: 1em;
+  border-radius: 0.5em;
+  font-weight: 600;
+  color: #0081ff;
+  border: 5px solid #036ed8;
+  font-family: "Outfit", sans-serif;
+}
+
+.P-content-position {
+  display: grid;
+  place-items: center;
+}
+
+/*css for input fields*/
+.P-input {
+  width: 250px;
+  padding: 10px;
+  margin: 0.5em;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: inherit;
+  outline: none;
+  border: 1px solid rgb(111, 68, 212);
+  box-shadow: 0 0 10px #8db4dd;
+}
+
+.P-input2 {
+  border: 1px solid red;
+  box-shadow: 0 0 10px red;
+}
+
+.P-input:hover {
+  border: 1px solid rgb(77, 10, 231);
+  box-shadow: 0 0 10px #1171d8;
+}
+
+/*css for title in that card*/
+.P-login-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5em;
+}
+
+
+
+/*css for buttons*/
+.P-buttons {
+  padding: 0.5em 2em 0.5em 2em;
+  margin: 0.5em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  color: #ffff;
+  background-color: rgba(49, 49, 235, 0.774);
+  border-radius: 5px;
+  border: none;
+}
+
+.P-buttons:hover {
+  background-color: rgba(20, 20, 143, 0.774);
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(20, 20, 143, 0.774);
+}

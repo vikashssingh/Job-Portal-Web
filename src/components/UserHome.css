@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap");
+
+.UE_page_title{
+    font-family: "Outfit", sans-serif;
+    color: #0081ff; 
+}
+
+.UE_overallcontainer{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.UE_totle{
+    width: 300px;
+    background-color: #ffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    color: black;
+    border: 5px solid #036ed8;
+    background-color: #f5fffa;
+    font-family: "Outfit", sans-serif;
+}
+
+.UE_job{
+    width: 90%;
+    background-color: #ffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    color: black;
+    border: 5px solid #036ed8;
+    background-color: #f5fffa;
+    font-family: "Outfit", sans-serif;
+    margin: 5px;
+}
+
+.UE_colore{
+    color: #0081ff; 
+}
+
+.UE_button_position{
+    display: flex;
+    justify-content: center;
+}
+
+/*css for buttons*/
+.UE-buttons {
+    padding: 0.5em 2em 0.5em 2em;
+    margin: 0.5em;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    color: #ffff;
+    background-color: rgba(49, 49, 235, 0.774);
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .UE-buttons:hover {
+    background-color: rgba(20, 20, 143, 0.774);
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(20, 20, 143, 0.774);
+  }
+  
